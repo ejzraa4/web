@@ -14,7 +14,7 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 
 ### Sensitive data
 
-> inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:"example.com
+> inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:example.com
 
 ### apaaja
 

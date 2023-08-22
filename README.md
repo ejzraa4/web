@@ -16,6 +16,14 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 
 > inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:example.com
 
+### Index Of
+
+> site:example.com intext:"index of/" +.htaccess
+
+### Deep Subdomain
+
+> site:*.*.*.example.com
+
 ### apaaja
 
 > site:"example.com" ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess

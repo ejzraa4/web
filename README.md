@@ -17,6 +17,7 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 > inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:example.com
 
 ### Index Of
+> (intext:”index of /.git”) (“parent directory”) example.com
 
 > site:example.com intext:"index of/" +.htaccess
 

@@ -17,9 +17,49 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 > inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:example.com
 
 ### Index Of
-> (intext:”index of /.git”) (“parent directory”) example.com
+> (intext:”index of /.git”) (“parent directory”) | inurl:example.com
 
-> site:example.com intext:"index of/" +.htaccess
+> intitle:"index of" "symfony/config" | inurl:example.com
+
+> intitle:"index of" "graphql/subscription" | inurl:example.com
+
+> intitle:"index of" "/admin/backup" | inurl:example.com
+
+> intitle:"index of" "admin/json" | inurl:example.com
+
+> intitle:"index of" "/admin_backup" | inurl:example.com
+
+> intitle:"index of" "git-jira-log" | inurl:example.com
+
+> intitle:"index of" db.frm | inurl:example.com
+
+> intitle:"index of" "/db_backups/" | inurl:example.com
+
+> site:example.com intext:"index of/" +.htaccess | inurl:example.com 
+ 
+> intitle:"index of" inurl:ftp intext:admin | inurl:example.com
+
+> intitle:"index of" "system/config" | inurl:example.com
+
+> intitle:"index of" "admin/config" | inurl:example.com
+
+> "index of" "/config/sql" | inurl:example.com
+
+> intitle:"index of" "api/admin" | inurl:example.com
+
+> intitle:"index of" "tinyfilemanager.php" | inurl:example.com
+
+> intitle:"index of" "test/storage/framework/ sessions/" | inurl:example.com
+
+> intitle:"index of" "common.crt" OR "ca.crt" | inurl:example.com
+
+> intitle:"index of" "global.asa" | inurl:example.com
+
+> intitle:"index of" "proxy.pac" OR "proxy.pac.bak" | inurl:example.com
+
+> intitle: "index of" "MySQL-Router" | inurl:example.com 
+
+> intitle:"index of" "owncloud/config/*" | inurl:example.com
 
 ### Deep Subdomain
 
